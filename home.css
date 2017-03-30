@@ -1,0 +1,243 @@
+body {
+    font-family: "Times New Roman", Georgia, Serif;
+}
+
+.header {
+    text-align: center;
+    padding-top: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+select {
+    width: 75px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.cart input {
+    width: 100px;
+    font-size: 12px;
+    background-color: transparent;
+    padding: 5px;
+    margin-top: 20px;
+    color: white;
+    border: 0px;
+    float: none;
+    font-weight: bold;
+}
+
+.cart a {
+    background: red;
+    padding: 10px 5px 12px 5px;
+}
+
+hr {
+    margin: 0px auto;
+}
+
+.menu {
+    width: 98%;
+    margin: 0px auto;
+}
+
+.menu ul {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    display: flex;
+    background: #000;
+}
+
+.menu ul li a {
+    font-family: sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    padding: 8px;
+}
+
+.menu ul li {
+    display: inline-block;
+    padding-right: 14px;
+    background-color: black;
+}
+
+.rightSection {
+    float: right;
+    width: 50%;
+}
+
+.arrow-right {
+    width: 0px;
+    height: 0px;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid #fff;
+    display: inline-block;
+}
+
+.descriptionHeading {
+    font-family: serif;
+    padding-left: 2px;
+}
+
+.description {
+    font-family: sans-serif;
+    font-size: 12px;
+    padding-left: 7px;
+}
+
+.leftSection {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+}
+
+.Navigation {
+    color: lightgrey;
+    font-size: 12px;
+    padding: 5px;
+    margin-top: 5px;
+    font-family: sans-serif;
+}
+
+.Navigation Span {
+    padding: 4px;
+}
+
+.Highlighted {
+    color: black;
+}
+
+.productVariants ul {
+    list-style-type: none;
+}
+
+.productVariants ul li {
+    display: inline-block;
+}
+
+.price {
+    font-size: 1.25rem;
+    font-family: sans-serif
+}
+
+
+/* Modal Popup CSS*/
+
+.modal-header {
+    border-bottom: 0px;
+    display: block;
+}
+
+.modal-body {
+    font-family: sans-serif;
+}
+
+.modal-footer {
+    border-top: 0px;
+}
+
+
+/* Modal Popup CSS Ends*/
+
+.selectedImage {
+    border: 2px solid #000;
+}
+
+
+/* Accordians CSS*/
+
+.panel-group {
+    margin-top: 20px;
+    border-top: 1px solid black;
+    padding-top: 6px;
+}
+
+.panel-title a:focus,
+a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+.panel-body {
+    font-size: 12px;
+}
+
+.panel.panel-default {
+    border-bottom: 1px solid #ccc;
+}
+
+.panel-group>div:last-child {
+    border-bottom: 1px solid #000;
+}
+
+.accordion-toggle {
+    font-size: 20px;
+    color: #000;
+}
+
+.panel-heading .accordion-toggle:after {
+    font-family: 'Glyphicons Halflings';
+    content: "\e114";
+    float: left;
+    color: #fff;
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid #555;
+    margin-top: 10px;
+    margin-right: 4px;
+}
+
+.panel-heading .accordion-toggle.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: "\e080";
+    /* adjust as needed, taken from bootstrap.css */
+    width: 0;
+    height: 0;
+    border-top: 6px solid transparent;
+    border-bottom: 6px solid transparent;
+    border-left: 6px solid #555;
+    margin-top: 8px;
+    margin-right: 0px !important
+}
+
+.menu ul li.selectedNav {
+    background-color: #043750;
+    border-left: 1px solid #fff;
+}
+
+
+/* Accordians CSS Ends*/
+
+
+/*Footer CSS starts*/
+
+.latestupdate {
+    color: orangered;
+}
+
+.footerborder {
+    border-top: 1px solid black;
+    padding: 10px 0px;
+}
+
+footer {
+    font-family: sans-serif;
+    padding: 0px 20px;
+    font-size: 12px;
+    text-align: center;
+    clear: both;
+    background-color: lightgrey;
+}
+
+
+/*Footer CSS ends*/
